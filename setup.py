@@ -23,8 +23,6 @@ setup(
     packages=find_packages(exclude=["tests", "tests.*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
@@ -37,7 +35,7 @@ setup(
         "Intended Audience :: Developers",
         "Natural Language :: English",
     ],
-    python_requires=">=3.7,<3.13",
+    python_requires=">=3.9,<3.13",
     install_requires=[
         "spacy>=3.5.0,<4.0.0",
         "benepar>=0.2.0,<0.3.0",
