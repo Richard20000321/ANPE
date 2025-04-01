@@ -20,21 +20,28 @@ setup(
         "Documentation": "https://github.com/richard20000321/anpe",
         "Source Code": "https://github.com/richard20000321/anpe",
     },
-    packages=find_packages(),
+    packages=find_packages(exclude=["tests", "tests.*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Development Status :: 4 - Beta",
         "Topic :: Text Processing :: Linguistic",
         "Intended Audience :: Science/Research",
+        "Intended Audience :: Developers",
         "Natural Language :: English",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.7,<=3.12",
     install_requires=[
-        "spacy>=3.5.0",
-        "benepar>=0.2.0",
-        "nltk>=3.8.0",
+        "spacy>=3.5.0,<4.0.0",
+        "benepar>=0.2.0,<0.3.0",
+        "nltk>=3.8.0,<4.0.0",
     ],
     entry_points={
         "console_scripts": [
@@ -42,4 +49,9 @@ setup(
         ],
     },
     include_package_data=True,
+    keywords="nlp, parsing, noun phrase, linguistics, text processing, natural language processing",
+    # Add additional package data
+    package_data={
+        "anpe": ["config/*.py"],
+    },
 ) 
