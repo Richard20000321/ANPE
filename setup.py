@@ -37,7 +37,7 @@ setup(
         "Intended Audience :: Developers",
         "Natural Language :: English",
     ],
-    python_requires=">=3.7,<=3.12",
+    python_requires=">=3.7,<3.13",
     install_requires=[
         "spacy>=3.5.0,<4.0.0",
         "benepar>=0.2.0,<0.3.0",

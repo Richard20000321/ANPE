@@ -2,7 +2,7 @@
 
 This document summarizes the patterns for detecting various noun phrase structures based on spaCy's dependency parsing via the `ANPEAnalyzer`.
 
-> **Disclaimer**: While we strive for accuracy in detecting noun phrase structures, please keep in mind that the results may vary due to the limitations of spaCy's dependency parsing and the complex, sometimes ambiguous nature of English syntax. This labeling system is a helpful tool, but it may not be 100% accurate. If you find any inaccuracies or have suggestions for additional structures to detect, please feel free to raise an issue on GitHub. I'll do my best to address them!
+> **Disclaimer**: While we strive for accuracy in detecting noun phrase structures, please keep in mind that the results may vary due to **the limitations of spaCy's dependency parsing** and the **complex, sometimes ambiguous nature of English syntax**. This labeling system is a helpful tool, but it **may not be 100% accurate**. If you find any inaccuracies or have suggestions for additional structures to detect, please feel free to raise an issue on GitHub. I'll do my best to address them!
 
 ## Table of Contents
 
