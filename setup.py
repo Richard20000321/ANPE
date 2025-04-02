@@ -37,9 +37,9 @@ setup(
     ],
     python_requires=">=3.9,<3.13",
     install_requires=[
-        "spacy>=3.5.0,<4.0.0",
-        "benepar>=0.2.0,<0.3.0",
-        "nltk>=3.8.0,<4.0.0",
+        "spacy>=3.5.0",
+        "benepar>=0.2.0",
+        "nltk>=3.8.0",
     ],
     entry_points={
         "console_scripts": [
